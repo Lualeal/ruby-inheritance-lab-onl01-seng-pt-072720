@@ -3,7 +3,7 @@ class Student < User
   attr_accessor :Knowledge, :name 
 
     def new
-    @Knowledge = []
+    @Knowledge=[]
     end 
     
     def learn(string)
